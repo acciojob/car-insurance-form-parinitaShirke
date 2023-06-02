@@ -4,6 +4,74 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<form action="#" method="post">
+            <div>
+               <div>
+              <label for="name">Name:</label>
+              <br />
+              <input type="text" id="name" name="name" required />
+            </div>
+            <br />
+
+            </div>
+
+            <br>
+            <div>
+                <label for="email">Email: </label>
+				<br>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+
+			<div>
+                <label for="gender">Gender: </label>
+				<br>
+                <input type="radio" name="gender" id="gender" required>Male
+                <br>
+				<input type="radio" name="gender" id="gender" required>Female
+
+			</div>
+            <br>
+
+			<div>
+				<label for="cars">Car Brands: </label>
+				<br>
+                <select id="cars" name="cars">
+					<option value="apple">BMW</option>
+					<option value="asus">Audi</option>
+					<option value="hp">Mercedes</option>					
+				</select>
+			</div>
+            <br>
+			
+			
+            <div>
+                <label for="age"> Car Age:</label><br>
+                <input type="number" name="carage" id="age" required>
+            </div>
+			<br>
+            <div>
+                <label for="dop">
+                    Date of Purchase:
+                </label>
+				<br>
+                <input type="date" name="dop" id="dop" required>
+            </div>
+
+            
+
+            <br>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="text" name="password" id="password" required>
+            </div>
+            <br>
+            
+            <br>
+            <div>
+              <button id="btn" type="submit"  >Submit</button>
+            </div>
+        </form>
 </head>
 
 <body>
